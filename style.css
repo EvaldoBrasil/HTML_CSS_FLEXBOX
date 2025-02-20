@@ -6,7 +6,7 @@
 }
 
 /* Importação de fontes do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600;700&display=swap');
 
 /* Configurações do body para ocupar 100% da altura da tela */
 body {
@@ -69,20 +69,26 @@ main {
 
 .buttons {
     display: flex;
-    gap: 10px;
+    gap: 20px; /* Espaçamento entre os botões */
 }
 
-.buttons button {
-    padding: 10px 20px;
-    background-color: #555;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
+.btn {
+    padding: 15px 30px; /* Espaçamento interno */
+    background-color: #007BFF; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    font-family: 'Montserrat', sans-serif; /* Fonte */
+    font-weight: 600; /* Peso da fonte */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background-color 0.3s ease; /* Transição suave */
 }
 
-.buttons button:hover {
-    background-color: #777;
+.btn:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra ao passar o mouse */
 }
 
 .image {
