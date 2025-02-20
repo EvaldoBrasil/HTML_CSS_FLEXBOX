@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+/* Importação de fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;700&display=swap');
+
 /* Configurações do body para ocupar 100% da altura da tela */
 body {
     height: 100vh;
@@ -13,7 +16,7 @@ body {
     justify-content: space-between;
     background-color: black;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Estilo do header */
@@ -42,6 +45,7 @@ main {
     align-items: center;
     width: 80%;
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .text {
@@ -49,13 +53,17 @@ main {
     margin-right: 20px;
 }
 
-.text h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+.apresentacao__conteudo__titulo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
-.text p {
+.apresentacao__conteudo__texto {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
